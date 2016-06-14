@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+
+    <EditText
+            android:id="@+id/et_uuid"
+            android:hint="请输入ID"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/bg_edittext_login"
+            android:layout_width="match_parent" android:layout_height="40dp"/>
+    <EditText
+            android:id="@+id/et_userPwd"
+            android:hint="请输入密码"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_edittext_login"
+            android:layout_width="match_parent" android:layout_height="40dp"/>
+    <Button
+            android:id="@+id/btn_login"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_selector_login"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_reg"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_selector_login"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
